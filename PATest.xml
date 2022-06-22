@@ -6,13 +6,13 @@
     <parameter name="WAIT" value="30"/>
     <parameter name="QUIT" value="Yes"/>
 
-    <test enabled="true" name="Test">
+    <test enabled="false" name="Test">
         <classes>
             <class name="runners.PARunner"/>
         </classes>
     </test>
 
-    <test enabled="false" name="Failures ReRun">
+    <test enabled="true" name="Failures ReRun">
         <classes>
             <class name="runners.FailuresRunner"/>
         </classes>
